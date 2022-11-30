@@ -1,4 +1,4 @@
-function check(n){
+function isNegative(n){
     var number = n;
     if(number >= 0){
         return "P";
@@ -7,4 +7,4 @@ function check(n){
     }
 }
 
-console.log(check(5));
+console.log(isNegative(-5));
